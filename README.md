@@ -1,55 +1,53 @@
-# Serverless Application Guide
+# Serverless API Gateway
 
-## Overview
-- Cloud-based data management system
-- No server management required
-- Simple web API implementation
+## Overview  
+We are creating a serverless API for managing database records using **AWS Lambda**, **API Gateway**, and **DynamoDB**. This cloud-based system allows users to perform:  
+- **Create** new database entries  
+- **Read** existing records  
+- **Update** data  
+- **List** all entries  
 
-## Key Components
-- AWS Lambda (smart function)
-- DynamoDB (database)
-- API Gateway (web interface)
-- Python (programming language)
+---
 
-## Step-by-Step Process
+## Key Features  
+- **Serverless architecture** with automatic scaling  
+- No server management required  
+- Minimal Python code leveraging cloud services  
+- Transforms complex infrastructure into user-friendly workflows  
 
-### 1. Set Up Permissions
-- Create security access
-- Define application capabilities
+---
 
-### 2. Create Smart Function
-- Write data handling code
-- Define core operations:
-  - Create
-  - Read
-  - Update
-  - Delete
+## Project Architecture  
+![Project Architecture Diagram](https://github.com/user-attachments/assets/fea17bdb-98b1-4bd5-9358-336231e158a0)  
 
-### 3. Configure Database
-- Create storage space
-- Organize data structure
+---
 
-### 4. Build Web Gateway
-- Create internet entry point
-- Connect function to web
+## Key Technologies Used  
+- **AWS Lambda**: Smart functions for API logic.  
+- **DynamoDB**: NoSQL database for storage.  
+- **API Gateway**: Web interface for API access.  
+- **Python**: Programming language for Lambda functions.  
 
-### 5. Deploy and Test
-- Put system online
-- Verify functionality
-- Test data operations
+---
 
-### 6. Clean Up
-- Remove created resources
-- Prevent ongoing charges
+## Implementation Roadmap  
+### Key Components  
+1. **Security Permissions (IAM Role)**  
+   - Define roles/policies for secure AWS access.  
+2. **Lambda Functions**  
+   - Develop CRUD operations.  
+3. **DynamoDB Tables**  
+   - Configure schemas and scaling.  
+4. **API Gateway Endpoints**  
+   - Create RESTful API interfaces.  
 
-## Learning Outcomes
-- Serverless architecture basics
-- Cloud service integration
-- Web API creation techniques
+---
 
-## Technical Flow
-1. Send request to API Gateway
-2. Gateway routes to Lambda function
-3. Lambda processes request
-4. Function interacts with DynamoDB
-5. Result returned to user
+## References  
+This project was developed with reference to [saha-rajdeep/serverless-lab](https://github.com/saha-rajdeep/serverless-lab.git), which demonstrates AWS serverless architecture patterns.  
+
+---
+
+## Next Step  
+➡️ [Setup IAM Roles](iam-roles-setup.md)  
+*(Click to proceed to security configuration)*  

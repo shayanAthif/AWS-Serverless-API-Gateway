@@ -156,7 +156,7 @@ Navigate back to **IAM > Roles** and click **Create Role**.
 ---
 
 ## Next Step  
-➡️ **[Create Lambda Function](lambda.md)**  
+➡️ **[Create Lambda Function](lambda-setup.md)**  
 *(Click here to proceed to Lambda setup)*  
 
 

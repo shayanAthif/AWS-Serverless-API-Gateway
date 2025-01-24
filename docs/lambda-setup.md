@@ -80,10 +80,24 @@ def lambda_handler(event, context):
     
     return operations[operation](event.get('payload')) if operation in operations \
         else ValueError(f'Unrecognized operation "{operation}"')
+```
 ![image](https://github.com/user-attachments/assets/c6961876-737c-434b-986a-d1b6755a5c17)  
 
-5 - Next to the Code tab, select the Test tab. We will be testing out our lambda function. 
-    Now, Under Test, Click Create a New test event. Choose the event template as hello-world and the event name as echotest, paste the below JSON file and click save.  
+### What does this code do?  
+   1. Extract operation from incoming request
+   2. Connect to DynamoDB table if specified
+   3. Define available operations
+   4. Execute requested operation
+
+---
+
+### 5. Configure Test Event
+1. Navigate to the **Test** tab next to the Code editor  
+2. Click **Create New Test Event**  
+3. Configure with:  
+   - **Template**: hello-world  
+   - **Event Name**: echotest  
+4. Replace template code with:  
 ```json
 {
     "operation": "echo",

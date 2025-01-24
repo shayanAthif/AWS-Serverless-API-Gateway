@@ -27,6 +27,9 @@ You've successfully created and tested a production-ready serverless architectur
 - **Database**: `DynamoDB` NoSQL table  
 
 ---
+## References  
+This project was developed with reference to [saha-rajdeep/serverless-lab](https://github.com/saha-rajdeep/serverless-lab.git), which demonstrates AWS serverless architecture patterns.  
 
+---
 ➡️ **[Return to Project Overview](/README.md)**  
 *(Click to revisit documentation or restart the process)*

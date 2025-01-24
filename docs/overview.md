@@ -54,6 +54,6 @@ We are creating a serverless API for managing database records using **AWS Lambd
 ---
 
 ## Next Step  
-➡️ [Setup IAM Roles](iam-roles.md)  
+➡️ [Setup IAM Roles](iam-roles-setup.md)  
 *(Click here to go to the next file)*
  

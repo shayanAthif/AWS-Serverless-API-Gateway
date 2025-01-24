@@ -45,6 +45,22 @@ Amazon DynamoDB is a **fully managed NoSQL database service** that:
 
 ---
 
+### ❓ What is NoSQL?  
+NoSQL ("Not Only SQL") databases:  
+- 🗄️ **Store flexible data formats** (key-value, document, etc.) instead of rigid tables  
+- ⚡ **Optimize for scalability/speed** over complex queries  
+- 🚫 **No fixed schema** – adapt to changing data needs  
+
+---
+
+### ❓ Why Use NoSQL (DynamoDB) Here?  
+1. **Serverless Scalability**  
+   - Automatically scales with API traffic (matches Lambda/API Gateway behavior).  
+2. **Low Latency**
+   - Single-digit millisecond response times for CRUD operations.
+
+---
+
 ## Next Step: API Gateway Configuration  
 With the database table ready, proceed to set up the API interface.  
 

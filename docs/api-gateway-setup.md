@@ -90,5 +90,5 @@ Amazon API Gateway is a **fully managed service** that:
 ![Invoke URL](https://github.com/user-attachments/assets/2d7779b4-0c02-4e47-8a7e-5803363d088d)  
 
 ---
-➡️ **[Final Steps ](/final-steps.md)**  
+➡️ **[Final Steps ](final-steps.md)**  
 *(Proceed to post-deployment checks and resource cleanup)*

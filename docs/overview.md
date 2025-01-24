@@ -17,4 +17,18 @@ Specifically, we'll build a cloud-based system that allows users to:
 - **Serverless architecture** with automatic scaling  
 - No server management required  
 - Minimal Python code leveraging cloud services  
-- Transforms complex infrastructure into user-friendly workflows  
+- Transforms complex infrastructure into user-friendly workflows
+
+---
+
+### Project Architecture:
+![image](https://github.com/user-attachments/assets/fea17bdb-98b1-4bd5-9358-336231e158a0)
+
+---
+
+### Key Technologies Used
+
+ - AWS Lambda (smart function)
+ - DynamoDB (database)
+ - API Gateway (web interface)
+ - Python (programming language)

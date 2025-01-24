@@ -43,11 +43,6 @@ We are creating a serverless API for managing database records using **AWS Lambd
 
 ---
 
-## References  
-This project was developed with reference to [saha-rajdeep/serverless-lab](https://github.com/saha-rajdeep/serverless-lab.git), which demonstrates AWS serverless architecture patterns.  
-
----
-
 ## Next Step  
 ➡️ [Setup IAM Roles](iam-roles-setup.md)  
 *(Click to proceed to security configuration)*  

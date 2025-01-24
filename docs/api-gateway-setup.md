@@ -34,6 +34,20 @@ Amazon API Gateway is a **fully managed service** that:
 ![Create REST API](https://github.com/user-attachments/assets/b83bb1b6-f209-4189-8507-cb120af36a0f)  
 
 ---
+### ❓ What is REST API & Why Use It Used Here?  
+
+**REST API**  
+- A standardized way to communicate between systems using:  
+  - **HTTP Methods**: `GET` (read), `POST` (create), `PUT` (update), `DELETE` (remove).  
+  - **Endpoints**: URLs like `/items` to represent resources.  
+  - **Stateless**: Each request contains all needed info (no server-side memory).  
+
+###  ❓  Why REST Here?
+REST naturally maps CRUD operations to HTTP methods (POST/Create, GET/Read, etc.) and integrates seamlessly with AWS API Gateway and Lambda for scalable serverless workflows.  
+
+**Other API Types** [ SOAP(XML-based, strict protocols) / GraphQL(flexible queries) / WebSocket(real-time) / gRPC(high-speed binary) ]  
+  
+---
 
 ### Step 2: Configure API Settings
 - **API Name**: `DynamoDBOperations`  
@@ -71,7 +85,12 @@ Amazon API Gateway is a **fully managed service** that:
 ![Method Configuration](https://github.com/user-attachments/assets/3cf4c5e8-9dec-45c9-8f5a-aa32084b5d44)  
 
 ---
+### ❓ Why Do APIs Use Resources & Methods?  
+- **Resources** (like `/users`, `/items`) represent your data/actions.  
+- **Methods** (`GET`, `POST`, etc.) define *how* to interact with them.  
 
+### ❓ Why It Matters: Organizing Resources/Methods keeps your API logical and scalable.    
+---
 ### Step 7: Deploy API
 1. In top-right corner, click **Deploy API**  
 2. Select **[New Stage]** for Deployment Stage  
